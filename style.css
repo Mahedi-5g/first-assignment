@@ -5,7 +5,7 @@
 }
 
 body {
-    padding: 50px 140px;
+    padding: 50px 140px 100px;
 
 }
 
@@ -14,8 +14,8 @@ header {
     background-size: contain;
     background-repeat: no-repeat;
     height: 600px;
-    
-   
+
+
 
 }
 
@@ -39,4 +39,33 @@ header {
     font-size: 60px;
     font-weight: 900;
 
+}
+
+.offer {
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    padding-bottom:100px ;
+
+}
+
+.off {
+    color: #F00;
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.second-line {
+    color: #F00;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 40px;
+    padding-bottom: 13px;
+}
+
+.catagories {
+    padding-bottom: 40px;
+    color: #070211;
+    font-size: 40px;
+    font-weight: 700;
 }
