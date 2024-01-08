@@ -45,7 +45,7 @@ header {
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
     font-family: 'Inter', sans-serif;
     text-align: center;
-    padding-bottom:100px ;
+    padding-bottom: 100px;
 
 }
 
@@ -68,4 +68,53 @@ header {
     color: #070211;
     font-size: 40px;
     font-weight: 700;
+}
+
+.night-party {
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap');
+    font-family: 'Merriweather', serif;
+    background-image: url('./B9A1-New-Year-New-Mission/resources/Vectorrr.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    color: #fff;
+    fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+
+}
+
+
+.upper-text {
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 72px;
+    letter-spacing: 5.05px;
+    padding: 103px 77px 19px 103px;
+
+
+}
+
+.lower-text {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0 32px 26px 103px;
+
+}
+
+.join-now-text {
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 61px 116px 130px;
+}
+
+.bg-second-img{
+    
+    size: contain;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    
+
 }
