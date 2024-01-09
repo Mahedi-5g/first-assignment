@@ -73,14 +73,15 @@ header {
 .night-party {
     @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap');
     font-family: 'Merriweather', serif;
-    background-image: url('./B9A1-New-Year-New-Mission/resources/Vectorrr.png');
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
     color: #fff;
-    fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    background-image: url('./B9A1-New-Year-New-Mission/resources/Vectorrr.png');
 
 }
+
+
 
 
 .upper-text {
@@ -109,12 +110,96 @@ header {
     padding: 0 61px 116px 130px;
 }
 
-.bg-second-img{
-    
+.bg-second-img {
+
     size: contain;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+
+
+}
+
+.show-time {
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap') @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;900&display=swap');
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+
+}
+
+.show-details {
+    padding-bottom: 40px;
+}
+
+.place-date-time {
+    color: #070211;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 46px;
+    text-transform: capitalize;
+
+}
+
+.place {
+    color: #F00;
+}
+
+.button {
+    color: #fff;
+    font-size: 16.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #F00;
+    border-radius: 6px;
+    padding: 13px 26px;
+    margin-bottom: 90px;
+
+}
+
+.bonous-point {
+    padding-top: 116px;
+    padding-bottom: 116px;
+    background: #fff;
+    display: flex
+}
+
+.left-side {
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap') @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;900&display=swap');
+    font-family: 'Inter', sans-serif;
+    text-align: left;
     
+}
+
+.new {
+    color: #F00;
+    font-size: 19.5px;
+    font-weight: 500;
+    border: 85px 210px 10px 0;
+
+}
+
+.soon {
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap');
+    font-family: 'Merriweather', serif;
+    color: #070211;
+    font-size: 39.5px;
+    font-weight: 900;
+    text-transform: capitalize;
+    border: 0 110px 18px 0;
+}
+
+.info {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    height: 104px;
+    width: 322px;
+    border: 0 57.5px 85px 0;
+}
+
+.middle-point{
+    justify-content: center;
 
 }
