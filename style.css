@@ -108,6 +108,7 @@ header {
     font-weight: 700;
     text-transform: uppercase;
     padding: 0 61px 116px 130px;
+    
 }
 
 .bg-second-img {
@@ -157,6 +158,7 @@ header {
     border-radius: 6px;
     padding: 13px 26px;
     margin-bottom: 90px;
+    border: none;
 
 }
 
@@ -166,6 +168,11 @@ header {
     background: #fff;
     display: flex;
     align-items: center;
+}
+
+.year-pic{
+    height: 400px;
+    margin: 30px 30px;
 }
 
 .left-side {
@@ -319,10 +326,31 @@ header {
 }
 
 .write-email {
+    /* background: #177543; */
     width: 531px;
-    height: 60px;
+    height: 50px;
     border: 0 275px 65px;
-    text-align: center
+    display: flex;
+    margin: 0px auto;
+    padding-bottom: 50px;
+}
+
+.write-email input {
+    width: 70%;
+    display: block;
+    padding-left: 15px;
+    border: none;
+    border-radius: 20px 0px 0px 20px;
+    
+}
+.write-email button {
+    width: 30% ;
+    display: block;
+    background-color: #F00;
+    color: #fff;
+    border: none;
+    border-radius: 0px 20px 20px 0px;
+    
 }
 
 
@@ -344,14 +372,7 @@ footer {
 }
 
 
-.place {
-    color: #FFF;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 32px;
-    margin-left: 114px;
 
-}
 
 .contact {
     color: #FFF;
@@ -390,4 +411,12 @@ footer {
 
 .unsubscribe {
     margin-right: 114px;
+}
+
+.footer-address{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-left: 114px;
 }
